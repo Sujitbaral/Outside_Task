@@ -1,0 +1,149 @@
+.flexLayout ul{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .flexLayout li{
+      background-color:#4d7298;
+      border: 2px solid #77a686;
+      border-radius: 10px;
+      padding: 10px;
+      color:#fff;
+      margin:10px;
+      font-size:30px;
+    }
+    
+    .pseudo{
+      text-align:center;
+    }
+    
+    .pseudo h1{
+      position:relative;
+      margin: 90px;
+      font-size: 41px;
+    }
+    
+        
+     .pseudo h1::before {
+            position: absolute;
+            background-color: grey;
+            content: "";
+            height: 5px;
+            width: 500px;
+            left: 0;
+            top: 50%;
+      }
+    
+     .pseudo h1::after {
+            position: absolute;
+            background-color: grey;
+            content: "";
+            height: 5px;
+            width: 500px;
+            right:0;
+            top: 50%;
+       }
+        
+    
+    .parent {
+      display: flex;
+    }
+    .child{
+      width: 60%;
+      padding:10px 60px 0 10px;
+    }
+    
+    .note{
+      color:orange;
+    }
+    
+    a{
+     text-decoration: none;
+     color:black;
+     font-weight:bold;
+    }
+    
+    @media only screen and (max-width: 640px) {
+      .parent {
+        display: block;
+      }
+      
+      .child{
+        width:100%;
+      }
+    }
+    
+    .excepteur{
+      color:orange;
+    }
+    
+    .event-form{
+      width:70%;
+      border: solid 10px blue;
+    }
+    
+    .event-form h2{
+      color:#fff;
+      background-color:#000;
+      margin:0;
+      text-align:center;
+      padding:10px;
+    }
+    
+    .flex {
+      width: 70%;
+      display: flex;
+      margin-top:20px;
+    }
+    
+    .label{
+      width: 110px;
+      float: left;
+      padding: 10px;
+      Font-size:1.1rem;
+    }
+    
+    .box{
+      width: 80%;
+      display: flex;
+      
+    }
+    
+    .input-text{
+        height:50px;
+      box-sizing: border-box;
+      border: none;
+      background-color: #d9d9d9; 
+      border-radius: 5px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    #lname{
+      margin-left:15px;
+    }
+    
+    #phone{
+      margin-right:15px;
+      width:25%
+    }
+    
+    .customer p{
+      font-size:1.1rem;
+    }
+    
+    form{
+      margin-left:20px;
+    }
+    
+    .button{
+        height:40px;
+        width:100px;
+        margin-top:30px;
+        padding:10px;
+        border:none;
+        border-radius: 5px;
+        color:white;
+        background-color:red;
+        
+    }

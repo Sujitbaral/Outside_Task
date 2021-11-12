@@ -1,0 +1,198 @@
+.wrapper {
+  background-color: #E5E5E5;
+  padding: 20px 0 20px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper .service .container {
+  margin: 80px;
+  background-color: #F6F6F6;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 740px) {
+  .wrapper .service .container {
+    margin: 65px;
+    height: 1300px;
+  }
+}
+
+.wrapper .service .container .header {
+  padding: 30px 30px 10px 30px;
+}
+
+.wrapper .service .container .header__content {
+  margin: 50px;
+}
+
+.wrapper .service .container .cards {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px;
+}
+
+@media (max-width: 740px) {
+  .wrapper .service .container .cards {
+    height: 940px;
+    margin: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.wrapper .service .container .cards .card {
+  width: 270px;
+  padding: 10px;
+}
+
+.wrapper .service .container .cards .card__one {
+  background-color: white;
+}
+
+.wrapper .service .container .cards .card__two {
+  background-color: #E4F2FF;
+}
+
+.wrapper .service .container .cards .card__three {
+  background-color: #D1DFBF;
+}
+
+.wrapper .service .container .cards .card__four {
+  background-color: #F9DBDB;
+}
+
+.wrapper .service .container .cards .card .btn {
+  color: white;
+  border: none;
+  padding: 8px;
+  margin: 8px;
+}
+
+.wrapper .service .container .cards .card .btn__one {
+  background-color: black;
+}
+
+.wrapper .service .container .cards .card .btn__two {
+  background-color: #0047FF;
+}
+
+.wrapper .service .container .cards .card .btn__three {
+  background-color: #40433C;
+}
+
+.wrapper .service .container .cards .card .btn__four {
+  background-color: #B75F5F;
+}
+
+.wrapper .features {
+  margin: 80px;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.wrapper .features .header {
+  padding: 30px 30px 10px 30px;
+}
+
+.wrapper .features .header__content {
+  margin: 50px;
+  text-align: center;
+}
+
+@media (max-width: 740px) {
+  .wrapper .features .header__content {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.wrapper .features .header__content h2 {
+  color: red;
+}
+
+.wrapper .features .body {
+  margin: 50px;
+}
+
+@media (max-width: 740px) {
+  .wrapper .features .body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.wrapper .features .body__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 80px 30px 80px;
+}
+
+.wrapper .features .body__content-details {
+  margin-top: 40px;
+  width: 300px;
+}
+
+.wrapper .features .body__content-details p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.wrapper .features .body__content-details .button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.wrapper .features .body__content .feature-image {
+  height: 200px;
+  width: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid pink;
+  margin-left: 20px;
+}
+
+@media (max-width: 740px) {
+  .wrapper .features .body__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=cssMethodology.css.map */

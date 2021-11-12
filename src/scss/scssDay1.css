@@ -1,0 +1,123 @@
+.pseudo {
+  text-align: center;
+}
+
+.pseudo h1 {
+  position: relative;
+  margin: 90px;
+  font-size: 41px;
+}
+
+.pseudo h1::before {
+  position: absolute;
+  background-color: grey;
+  content: "";
+  height: 5px;
+  width: 500px;
+  left: 0;
+  top: 50%;
+}
+
+.pseudo h1::after {
+  position: absolute;
+  background-color: grey;
+  content: "";
+  height: 5px;
+  width: 500px;
+  right: 0;
+  top: 50%;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.child {
+  width: 60%;
+  padding: 10px 60px 0 10px;
+  width: 100%;
+}
+
+.child .note {
+  color: orange;
+}
+
+.child .excepteur {
+  color: orange;
+}
+
+.child a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  .parent {
+    display: block;
+  }
+  .parent .child {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  background-color: #ebebff;
+  font-family: sans-serif, Verdana;
+  width: 600px;
+  height: 685px;
+}
+
+.wrapper .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 280px 280px;
+      grid-template-columns: 280px 280px;
+  grid-gap: 20px;
+  margin-left: 10px;
+}
+
+.wrapper .container .sub-container {
+  padding: 10px;
+  background-color: white;
+}
+
+.wrapper .container .sub-container h2 {
+  color: #3a3a3a;
+}
+
+.wrapper .container .sub-container p {
+  color: #858585;
+}
+
+.wrapper .container .four {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+}
+
+.wrapper .container .btn {
+  width: 100%;
+  font-size: 1.5rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper .container .btngreen {
+  background-color: #03bb2c;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.wrapper .container .btnblue {
+  background-color: #0316bb;
+  padding: 10px;
+}
+/*# sourceMappingURL=scssDay1.css.map */

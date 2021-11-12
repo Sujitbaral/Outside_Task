@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: blue;
+  padding: 20px;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__wrapper ul {
+  text-align: right;
+}
+
+.header__wrapper ul li {
+  display: inline-block;
+}
+
+.header__wrapper ul a {
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.header__wrapper ul .menu4 {
+  background-color: #fff;
+  color: blue;
+  font-weight: bold;
+  padding: 10px 35px;
+  border-radius: 7px;
+}
+
+.header__wrapper .header__logo {
+  font-size: 28px;
+  color: #fff;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #C8E5F3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.banner__content {
+  width: 435px;
+  height: 230px;
+  background-color: blue;
+  color: #fff;
+  margin: 55px;
+}
+
+.banner h3 {
+  padding: 25px;
+  font-size: 30px;
+}
+
+.banner .btn {
+  width: 90px;
+  height: 35px;
+  margin: 20px;
+  color: blue;
+  font-weight: 700;
+  border-radius: 7px;
+}
+
+.section {
+  height: 80px;
+  background-color: #808080;
+}
+
+.section .container {
+  padding: 30px 20px;
+}
+
+.section .container .btn {
+  height: 35px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.section .container .btn--success {
+  background-color: green;
+}
+
+.section .container .btn--alert {
+  background-color: red;
+}
+
+.section .container .btn--primary {
+  background-color: blue;
+  text-decoration: none;
+}
+
+.section .container a {
+  padding: 9px 20px;
+}
+/*# sourceMappingURL=scssDay2.css.map */
