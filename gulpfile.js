@@ -15,7 +15,7 @@ gulp.task('css', function () {
       .pipe(uglifycss({
         "uglyComments": true
       }))
-      .pipe(gulp.dest('dist/css-min'));
+      .pipe(gulp.dest('dist/css'));
   });
 
   gulp.task('minifyHtml', () => {
